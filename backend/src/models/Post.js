@@ -1,5 +1,5 @@
 export default (sequelize, { BOOLEAN, STRING, TEXT, UUID, UUIDV4 }) => {
-  const Post = sequelize.define("Post", {
+  const Post = sequelize.define('Post', {
     id: {
       primaryKey: true,
       allowNull: false,
@@ -12,21 +12,22 @@ export default (sequelize, { BOOLEAN, STRING, TEXT, UUID, UUIDV4 }) => {
     },
     slug: {
       type: STRING,
+      unique: true,
       allowNull: false
     },
     readingTime: {
       type: STRING,
       allowNull: false,
-      defaultValue: "3 min"
+      defaultValue: '3 min'
     },
-    body: {
+    content: {
       type: TEXT,
       allowNull: false
     },
     language: {
       type: STRING,
       allowNull: false,
-      defaultValue: "es"
+      defaultValue: 'es'
     },
     image: {
       type: STRING
@@ -35,18 +36,18 @@ export default (sequelize, { BOOLEAN, STRING, TEXT, UUID, UUIDV4 }) => {
       type: BOOLEAN,
       defaultValue: false
     }
-  });
+  })
 
   Post.associate = models => {
     Post.hasMany(models.Tag, {
       foreignKey: {
-        name: "postId",
-        field: "post_id"
+        name: 'postId',
+        field: 'post_id'
       },
-      as: "tags",
-      onDelete: "CASCADE",
-      onUpdate: "CASCADE"
-    });
-  };
-  return Post;
-};
+      as: 'tags',
+      onDelete: 'CASCADE',
+      onUpdate: 'CASCADE'
+    })
+  }
+  return Post
+}

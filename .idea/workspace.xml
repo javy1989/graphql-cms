@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8b2f220-ac20-4eb3-9c56-3dea7c9f5a33" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GraphQL File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VwI74YOmnnsMAION7fEtLiGwO4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/graphql/resolvers" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desarrollo\javascript\graphql-cms\frontend\public\assets\fonts\OpenSans" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desarrollo\javascript\graphql-cms\backend\src\graphql\resolvers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="test" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="test" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.lint" />
+      <item itemvalue="npm.start" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8b2f220-ac20-4eb3-9c56-3dea7c9f5a33" name="Default Changelist" comment="" />
+      <created>1578157559436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578157559436</updated>
+      <workItem from="1578157563446" duration="10655000" />
+      <workItem from="1578272075509" duration="12861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578284076013">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578284076013" />
+    <state x="0" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578285359290">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="0" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578285359290" />
+    <state x="361" y="198" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1578285131716">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="361" y="198" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578285131716" />
+    <state x="500" y="136" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578274940187">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578274940187" />
+    <state x="435" y="152" key="#dev" timestamp="1578284096597">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="435" y="152" key="#dev/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578284096597" />
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom" timestamp="1578286478568">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
+    <state width="1419" height="222" key="GridCell.Tab.0.center" timestamp="1578286478568">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
+    <state width="1419" height="222" key="GridCell.Tab.0.left" timestamp="1578286478568">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
+    <state width="1419" height="222" key="GridCell.Tab.0.right" timestamp="1578286478568">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
+    <state x="221" y="73" key="SettingsEditor" timestamp="1578280364738">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="73" key="SettingsEditor/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578280364738" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1578280911066">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578280911066" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578283762494">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578283762494" />
+  </component>
+</project>

@@ -1,5 +1,5 @@
 export default (sequelize, { STRING, UUID, UUIDV4 }) => {
-  const Tag = sequelize.define("Tag", {
+  const Tag = sequelize.define('Tag', {
     id: {
       primaryKey: true,
       allowNull: false,
@@ -10,6 +10,6 @@ export default (sequelize, { STRING, UUID, UUIDV4 }) => {
       type: STRING,
       allowNull: false
     }
-  });
-  return Tag;
-};
+  })
+  return Tag
+}

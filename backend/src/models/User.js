@@ -1,23 +1,25 @@
+import { encrypt } from '../utils/security'
+
 export default (sequelize, { BOOLEAN, STRING, UUID, UUIDV4 }) => {
-  const User = sequelize.define("User", {
+  const User = sequelize.define('User', {
     id: {
       primaryKey: true,
       allowNull: false,
       type: UUID,
       defaultValue: UUIDV4()
     },
-    usernama: {
+    username: {
       type: STRING,
       allowNull: false,
       unique: true,
       validate: {
         isAlphanumeric: {
           args: true,
-          msg: "The user just accepts alphanumeric characters"
+          msg: 'The user just accepts alphanumeric characters'
         },
         len: {
           args: [4, 20],
-          msg: "The username must be from 4 to 20 characters"
+          msg: 'The username must be from 4 to 20 characters'
         }
       }
     },
@@ -32,30 +34,35 @@ export default (sequelize, { BOOLEAN, STRING, UUID, UUIDV4 }) => {
       validate: {
         isEmail: {
           args: true,
-          msg: "Invalid email"
+          msg: 'Invalid email'
         }
       }
     },
     privilege: {
       type: STRING,
       allowNull: false,
-      defaultValue: "user"
+      defaultValue: 'user'
     },
     active: {
       type: BOOLEAN,
       allowNull: false,
       defaultValue: false
     }
-  });
+  }, {
+    hooks: {
+      beforeCreate: user => {
+        user.password = encrypt(user.password)
+      }
+    }
+  })
   User.associate = models => {
     User.hasMany(models.Post, {
       foreignKey: {
-        name: "userId",
-        field: "user_id"
+        name: 'userId',
+        field: 'user_id'
       },
-      as: "posts"
-    });
-  };
-
-  return User;
-};
+      as: 'posts'
+    })
+  }
+  return User
+}
