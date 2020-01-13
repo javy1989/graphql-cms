@@ -1,0 +1,14 @@
+{
+  "serverPort": 3000,
+  "languages": {
+    "default": "es",
+    "list": [
+      "es",
+      "en  "
+    ]
+  },
+  "security":{
+    "secretKey":"Programador2015",
+    "expiresIn":"7d"
+  }
+}
