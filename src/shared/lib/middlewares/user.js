@@ -29,19 +29,18 @@ export function User(req) {
   }
 }
 
-export const isConnected = (isLogged = true, privilege = 'user', redirectTo = '/') => (req, res, next)
-{
+export const isConnected = (isLogged = true, privilege = 'user', redirectTo = '/') => (req, res, next) => {
   User(req).jwtVerify(user => {
     if (!user && !isLogged) {
       return next()
     } else if (user && isLogged) {
-      if (privelege === 'god') {
-        if (use.privilege === 'god') {
+      if (privilege === 'god') {
+        if (user.privilege === 'god') {
           return next()
         } else {
           res.redirect(redirectTo)
         }
-      } else if (privelege === 'user' && user.privilege === 'user') {
+      } else if (privilege === 'user' && user.privilege === 'user') {
         return next()
       }
     } else {
