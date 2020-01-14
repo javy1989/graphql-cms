@@ -16,14 +16,42 @@ const UserProvider = ({children}) => {
   const {mutate} = useApolloClient();
   const [, setCookie] = useCookies(['user']);
   const [user, setUser] = useState([])
-};
 
-async function login({email, password})=>
-{
-  try {
+  async function login({email, password}) {
+    try {
+      const {data} = await mutate({
+        mutation: LOGIN_MUTATION,
+        variables: {
+          email,
+          password
+        }
+      })
 
-  } catch (e) {
-    return getGraphQlError(e)
+      if (data) {
+        setCookie('at', data.login.token, {path: '/'})
+        setUser(data.login.token)
+        return data.login.token
+      }
+    } catch (err) {
+      return getGraphQlError(err)
+    }
   }
+
+  const context = {
+    login,
+    user
+  }
+  return (
+    <UserContext.Provider value={context}>
+      {children}
+    </UserContext.Provider>
+  )
+};
+UserProvider.protoTypes = {
+  children: element
 }
+
+export default UserProvider
+
+
 

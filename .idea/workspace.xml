@@ -225,6 +225,7 @@
       <workItem from="1578754199261" duration="372000" />
       <workItem from="1578760506944" duration="11787000" />
       <workItem from="1578778045736" duration="5539000" />
+      <workItem from="1578968758798" duration="3521000" />
     </task>
     <servers />
   </component>
@@ -294,9 +295,21 @@
     </state>
     <state x="376" y="195" key="run.anything.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578280911066" />
     <state x="418" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1578761431151" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578283762494">
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578971154443">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578283762494" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578971154443" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/config/index.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
