@@ -1,5 +1,5 @@
 import React, {PureComponent} from 'react';
-import {array, element, func, string, oneOfType} from 'prop-types';
+import propTypes from '@propTypes';
 import NextLink from 'next/link'
 
 class Link extends PureComponent {
@@ -21,13 +21,9 @@ class Link extends PureComponent {
 }
 
 Link.propTypes = {
-  children: oneOfType([
-    array,
-    element,
-    string
-  ]).isRequired,
-  className: string,
-  onClick: func
+  children: propTypes.children.isRequired,
+  className: propTypes.string,
+  onClick: propTypes.func
 };
 
 export default Link;

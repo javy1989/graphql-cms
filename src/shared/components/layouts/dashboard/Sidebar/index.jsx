@@ -1,6 +1,6 @@
 // Dependencies
 import React, {PureComponent} from 'react'
-import propTypes, {element} from 'prop-types'
+import propTypes from '@propTypes'
 import {Badge, Icon} from 'fogg-ui'
 
 // Components
@@ -63,7 +63,7 @@ class Sidebar extends PureComponent {
 }
 
 Sidebar.propTypes = {
-  children: element.isRequired
+  children: propTypes.children.isRequired
 }
 
 export default Sidebar

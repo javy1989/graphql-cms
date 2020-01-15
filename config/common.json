@@ -1,5 +1,6 @@
 {
   "serverPort": 3000,
+  "appName": "Tame EP",
   "languages": {
     "default": "es",
     "list": [
@@ -7,8 +8,8 @@
       "en  "
     ]
   },
-  "security":{
-    "secretKey":"Programador2015",
-    "expiresIn":"7d"
+  "security": {
+    "secretKey": "Programador2015",
+    "expiresIn": "7d"
   }
 }

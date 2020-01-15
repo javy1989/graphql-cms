@@ -2,39 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b2f220-ac20-4eb3-9c56-3dea7c9f5a33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/Poppins/font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/components/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/dashboard/components/Layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/_document.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/dashboard/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/dashboard/Content/Content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/dashboard/Content/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/dashboard/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/dashboard/Header/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/dashboard/Sidebar/Sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/dashboard/Sidebar/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/ui/Link.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/ui/Triangle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/components/ui/Triangle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/components/modules/Blog/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/components/modules/Comments/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/components/modules/Home/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/dashboard/components/modules/Users/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/ui/Title.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/propTypes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/dashboard/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/components/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/dashboard/components/Layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/dashboard/components/Layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/users/components/Login/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/components/Login/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/users/components/Login/Layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/components/Login/Layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/users/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/users/components/Login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/components/Login/Login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contexts/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/user.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/users/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/layout/Logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layout/Logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/middlewares/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/lib/middlewares/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/styles/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/styles/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contexts/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contexts/user.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/dashboard/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/dashboard/Content/Content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/dashboard/Content/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/dashboard/Content/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/dashboard/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/dashboard/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/dashboard/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/dashboard/Header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/dashboard/Sidebar/Sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/dashboard/Sidebar/Sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/dashboard/Sidebar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/dashboard/Sidebar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/layout/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/main/Logo/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/layout/Logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/layouts/main/Logo/Logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/ui/Link.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/ui/Link.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../graphql-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/dashboard/components/modules" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,12 +73,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ricardo.bravo\personal\cursos\graphql-cms\src\app\dashboard\components\modules" />
+      <recent name="D:\desarrollo\javascript\graphql-cms\backend\src\graphql\resolvers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ricardo.bravo\personal\cursos\graphql-cms\src\shared\components\layouts\main\Logo" />
+      <recent name="D:\ricardo.bravo\personal\cursos\graphql-cms\src\shared\components\layouts\main" />
+      <recent name="D:\ricardo.bravo\personal\cursos\graphql-cms\src\shared\components\layouts" />
       <recent name="D:\ricardo.bravo\personal\cursos" />
       <recent name="D:\desarrollo\javascript\graphql-cms\frontend\public\assets\fonts\OpenSans" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\desarrollo\javascript\graphql-cms\backend\src\graphql\resolvers" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -133,6 +128,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/backend/package.json" />
       <command value="start" />
@@ -153,10 +158,12 @@
       <item itemvalue="npm.start" />
       <item itemvalue="npm.test" />
       <item itemvalue="npm.dev (1)" />
+      <item itemvalue="npm.start (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.start (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +198,7 @@
       <workItem from="1578778045736" duration="5539000" />
       <workItem from="1578968758798" duration="3521000" />
       <workItem from="1579012294778" duration="7373000" />
-      <workItem from="1579020456581" duration="12634000" />
+      <workItem from="1579020456581" duration="19101000" />
     </task>
     <servers />
   </component>
@@ -232,31 +239,35 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579018127228" />
-    <state width="1579" height="202" key="GridCell.Tab.0.bottom" timestamp="1579030305972">
+    <state width="1579" height="173" key="GridCell.Tab.0.bottom" timestamp="1579038659108">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
-    <state width="1579" height="202" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579030305972" />
-    <state width="1579" height="202" key="GridCell.Tab.0.center" timestamp="1579030305972">
+    <state width="1579" height="173" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579038659108" />
+    <state width="1579" height="173" key="GridCell.Tab.0.center" timestamp="1579038659108">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
-    <state width="1579" height="202" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579030305972" />
-    <state width="1579" height="202" key="GridCell.Tab.0.left" timestamp="1579030305972">
+    <state width="1579" height="173" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579038659108" />
+    <state width="1579" height="173" key="GridCell.Tab.0.left" timestamp="1579038659108">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
-    <state width="1579" height="202" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579030305972" />
-    <state width="1579" height="202" key="GridCell.Tab.0.right" timestamp="1579030305972">
+    <state width="1579" height="173" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579038659108" />
+    <state width="1579" height="173" key="GridCell.Tab.0.right" timestamp="1579038659108">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578286478568" />
-    <state width="1579" height="202" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579030305972" />
+    <state width="1579" height="173" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579038659108" />
     <state x="246" y="73" key="SettingsEditor" timestamp="1579020344507">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="221" y="73" key="SettingsEditor/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578280364738" />
     <state x="246" y="73" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579020344507" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1579037270565">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579037270565" />
     <state x="611" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579015671619">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -266,10 +277,11 @@
     </state>
     <state x="376" y="195" key="run.anything.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578280911066" />
     <state x="418" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1578761431151" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578971154443">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="426" y="180" width="747" height="678" key="search.everywhere.popup" timestamp="1579041098324">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860/1440.0.1440.860@0.0.1440.860" timestamp="1578971154443" />
+    <state x="426" y="180" width="747" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1579041098324" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {element} from 'prop-types';
+import propTypes from '@propTypes';
 //Styles
 import styles from './Content.scss';
 
@@ -16,7 +16,7 @@ class Content extends Component {
 }
 
 Content.propTypes = {
-  children: element.isRequired
+  children: propTypes.children.isRequired
 };
 
 export default Content;

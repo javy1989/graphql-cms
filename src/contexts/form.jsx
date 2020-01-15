@@ -19,12 +19,12 @@ const FormProvider = ({children, initialValues = {}}) => {
   const context = {
     handleInputChange,
     values: state
-  }
+  };
 
   return (
     <FormContext.Provider value={context}>
       {children}
     </FormContext.Provider>
   )
-}
+};
 export default FormProvider;
